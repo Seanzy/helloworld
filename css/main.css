@@ -1,0 +1,136 @@
+
+/** {
+	border: 1px solid black;
+	padding: 2px;
+	
+}*/
+
+
+li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color:grey;
+}
+
+img.resize {
+	height: 23px;
+	width: 23px;
+	position: relative;
+	top: 5px;
+}
+
+.Nav {
+	font-family: arial;
+	font-size: 16px;
+	color:black;
+	list-style: none;
+	position: relative;
+	display: block;
+	text-align: right;
+	word-spacing: 1.4em;
+    right: 25px;
+    top: 0;
+}
+
+img.offset {
+	position: relative;
+	top:7px;
+	width: 85px;
+	height: 35px;
+}
+
+.SearchBox {
+	/*
+	position: absolute;
+	margin-top: 75px;
+	width: 100%;
+	*/
+	text-align: center;
+
+}
+
+.SearchBox img {
+	margin: auto auto;
+	padding: 42px 0 0 0;
+	display: block;
+}
+
+.SearchBox input {
+	width: 600px;
+	font-size: 16px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid rgb(217,217,217);
+	width: 581px;
+	height: 34px;
+}
+
+.mic {
+	position: relative;
+	top: 35px;
+	left: 270px;
+	display: block;
+	border: none;
+}
+
+.SearchButtons button{
+	background-color: rgb(243,243,243);
+	border: solid 1px rgba(0,0,0,0.1);
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 27px;
+	margin: 17px 6px;
+	padding: 0 12px;
+	color: gray;
+	position: relative;
+	display: inline-block;
+	cursor: pointer
+}
+
+button {
+	align-items: flex-start;
+	text-align: center;
+	display: inline;
+}
+
+.footer {
+	background-color: rgb(242,242,242);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	left:0;
+}
+
+.LeftFooter {
+	display: inline-block;
+	font-family: arial;
+	font-size: 16px;
+	word-spacing: 2em;
+	color: rgb(102,102,102);
+}
+
+.RightFooter {
+	font-family: arial;
+	font-size: 16px;
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 40px;
+	word-spacing: 2em;
+}
+/*
+.LeftFooter li {
+	color: rgb(102,102,102);
+}
+*/
+
+
+/*how do I make the APps image the right size, do I use an ID?
+How am I supposed to use classes? is it okay to make the entire ul selector
+inline? or should we use a class for the nav bar and a class for the footer*/
+
+/*why can't I change color of text within .LeftFooter and .RIghtFooter?*/
